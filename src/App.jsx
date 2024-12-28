@@ -23,7 +23,6 @@ const App = () => {
 
   return (
     <div className="bg-zinc-100 flex flex-col md:flex-row gap-4 h-screen w-full p-4">
-      {/* Form Section */}
       <form
         className="flex flex-col w-full md:w-[45vw] p-4 rounded-md bg-white shadow-lg"
         onSubmit={submitHandler}
@@ -65,7 +64,6 @@ const App = () => {
         </button>
       </form>
 
-      {/* Contact List Section */}
       <div className="w-full md:w-[52vw] p-4 bg-white rounded-md shadow-lg overflow-y-auto">
         <h1 className="font-bold text-2xl mb-4">Contact List</h1>
         {user.length === 0 ? (
